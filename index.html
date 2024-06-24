@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="TodoListName" style="color: black">TodoList</h1>
+    <div class="container">
+      <input id="input-box" type="text" placeholder="할 일 추가!">
+        <input 
+        type="button"
+        id="input-button"
+        value="+"
+        onclick="onClickInputButton()"
+      >
+    </div>
+  </header>
+  <main>
+    <ul class="to-do-list">
+      <li>
+        <input 
+          type="checkbox"
+          class="checkbox"
+          onclick="onClickCheckbox()"
+        >
+        <span>first item</span>
+        <img 
+          src="/images/garbage.png" 
+          alt="휴지통"
+          width="35px"
+          height="35px"
+          onclick="onClickDeleteButton()"
+        >
+      </li>
+      <li>
+        <input 
+          type="checkbox"
+          class="checkbox"
+          onclick="onClickDeleteButton()"
+        >
+        <span>second item</span>
+        <img 
+          src="/images/garbage.png"
+          alt="휴지통"
+          width="35px"
+          height="35px"
+          >
+      </li>
+    </ul>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,66 @@
+* {
+  background-color: wheat;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: auto;
+}
+
+#input-box {
+  width: 300px;
+  height: 42px;
+  border: 1px solid gray;
+  font-size: larger;
+}
+
+#input-button {
+  height: 45px;
+  width: 40px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+}
+
+.to-do-list {
+  box-sizing: border-box;
+  background-color: white;
+  border: 8px solid white;
+  border-radius: 7%;
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 30px;
+}
+
+li {
+  background-color: white;
+  margin-top: 5%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox {
+  width: 20px;
+  height: 30px;
+  border-radius: 30%;
+}
+
+li > span {
+  background-color: white;
+  font-size: 20px;
+}
+
+li > image {
+  background-color: white;
+}
